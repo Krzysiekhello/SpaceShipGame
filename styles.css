@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    cursor: none;
+}
+#gameContainer {
+    height: 100vh;
+    background-color: #000;
+}
+#spaceShip {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(-50%, -50%) ;
+    width: 200px;
+    height: 70px;
+    background-color: #fff;
+}
+.shots {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.enemies {
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+}
